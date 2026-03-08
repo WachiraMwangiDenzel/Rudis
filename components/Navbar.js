@@ -3,7 +3,7 @@ import { MessageCircle, Bell } from 'lucide-react'
 
 export default function Navbar() {
   return (
-    <div className='bg-gray-500 top-0 h-16 w-full rounded-bl-sm flex items-center justify-between px-4 text-white font-bold'>
+    <div className='bg-[#87848447] top-0 h-16 w-full rounded-bl-sm flex items-center justify-between px-4 text-white font-bold'>
       <div>Dashboard</div>
       <div className="flex-1 flex justify-center">
         <input
