@@ -1,4 +1,5 @@
 import Navbar from '@/components/Navbar'
+import TaskCards from '@/components/TaskCards'
 import TodaysTask from '@/components/TodaysTask'
 import React from 'react'
 
@@ -7,6 +8,7 @@ export default function page() {
     <div className='bg-white px-20 py-10  flex flex-col h-screen text-2xl font-bold'>
         <Navbar />
         <TodaysTask />
+        <TaskCards />
     </div>
   )
 }
