@@ -3,7 +3,7 @@ import { LoaderCircle, CircleX, CircleCheck, MoveRight } from 'lucide-react'
 
 export default function TaskCards() {
   return (
-    <div className='text-black mt-2 ml-5 mr-5 grid grid-cols-2 md:grid-cols-3 gap-4 rounded-lg '>
+    <div className='text-black mt-2 ml-5 mr-5 grid grid-cols-1 md:grid-cols-3 gap-4 rounded-lg '>
       <div className='bg-[#87848447] px-8 py-5  box-content rounded-4xl  shadow relative'>
         <h1 className='mb-2 text-[#076b50] text-center'>Design New Logo</h1>
         <p className="text-base font-normal  "><span>Deadline: </span>April 31, 2023</p>
@@ -44,8 +44,7 @@ export default function TaskCards() {
             style={{ width: "2%" }}
           ></div>
         </div>
-
-    </div>
+      </div>
         
       </div>
       <div className='bg-[#87848447] px-8 py-5  box-content rounded-4xl shadow relative '>

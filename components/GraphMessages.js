@@ -48,7 +48,7 @@ export default function GraphMessages() {
       </div>
 
       {/* Assignment Section */}
-      <div className="grid w-auto  text-black bg-gray-300 border-b border-white shadow-xl rounded-4xl p-5">
+      <div className="grid w-auto h-99 md:h-auto text-black bg-gray-300 border-b border-white shadow-xl rounded-4xl p-5">
             <h1 className=''> Assignments</h1>
             <div className='flex justify-between -mt-4'>
               <label className='text-lg font-normal '>
