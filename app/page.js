@@ -3,7 +3,7 @@ import TaskCards from '@/components/TaskCards'
 import TodaysTask from '@/components/TodaysTask'
 import GraphMessages from '@/components/GraphMessages'
 import React from 'react'
-import Footer from '@/components/footer'
+// import Footer from '@/components/footer'
 import Asidebar from '@/components/asidebar'
 export default function page() {
   return (
